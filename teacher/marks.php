@@ -78,9 +78,11 @@
                 <div class="modal-body">
                   <form action="/teacher/marks_edit.php" method="post">
                     <?php foreach ($result_hw as $res_hwe): ?>
+
                     <div class="form-group">
                       <small><?php echo $res_hwe['name']; ?></small>
                       <input type="text" class="form-control" name="<?php echo $res_hwe['name']; ?>" value="<?php echo $res[$res_hwe['name']];?>">
+                      <pre> <?php echo var_dump($res_hwe); ?></pre>
                     </div>
                     <?php endforeach;?>
                     <input type="hidden" name="id" value="<?php echo $res['id'];?>">
