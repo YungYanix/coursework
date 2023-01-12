@@ -38,7 +38,7 @@
     header('Location: /teacher/t_profile.php');
   }
   if ($user['access'] == 3){
-    header('Location: /profil.php');
+    header('Location: /profile.php');
   }
   //header('Location: /admin/admin.php');
 

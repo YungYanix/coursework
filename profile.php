@@ -10,7 +10,7 @@
 
     <script src="https://kit.fontawesome.com/d7ea81c781.js" crossorigin="anonymous"></script>
 
-    <title>Личный кабинет преподователя</title>
+    <title>Интерфейс администратора</title>
   </head>
   <body>
     <div class="container p-5 my-5 bg-dark text-white mt-2">
