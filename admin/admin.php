@@ -35,11 +35,11 @@
         <tbody>
           <?php
               $mysql = new mysqli(
-            'localhost', 
-            'root', 
-            'root', 
-            'student_bd'
-           );
+  '1193261-yungyanix.tw1.ru', 
+  'root', 
+  'VGJKva(asx7637)xnas', 
+  'student_bd'
+ );
            $q = "SELECT * FROM `users_1`";
            if (mysqli_query($mysql, $q)) {
             $res0 = mysqli_query($mysql, $q);

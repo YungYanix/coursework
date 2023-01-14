@@ -3,9 +3,18 @@
   FILTER_SANITIZE_STRING);
   $pass = filter_var(trim($_POST['pass']),
   FILTER_SANITIZE_STRING);
-
-  $register_bd = new mysqli('localhost', 'root', 'root', 'register-bd');
-  $student_bd = new mysqli('localhost', 'root', 'root', 'student_bd');
+  $register_bd = new mysqli(
+  '1193261-yungyanix.tw1.ru', 
+  'root', 
+  'VGJKva(asx7637)xnas', 
+  'register-bd'
+ );
+  $student_bd = new mysqli(
+  '1193261-yungyanix.tw1.ru', 
+  'root', 
+  'VGJKva(asx7637)xnas', 
+  'student_bd'
+ );
   $result_register_bd = $register_bd->query("SELECT * FROM `users` WHERE `login` =
   '$login'");
 

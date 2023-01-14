@@ -1,12 +1,11 @@
 <?php
 
 $mysql = new mysqli(
-  'localhost', 
+  '1193261-yungyanix.tw1.ru', 
   'root', 
-  'root', 
+  'VGJKva(asx7637)xnas', 
   'student_bd'
  );
-
 
 
 

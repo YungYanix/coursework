@@ -30,7 +30,12 @@
 
           <?php
 
-          $mysql = new mysqli('localhost', 'root', 'root', 'register-bd');
+          new mysqli(
+  '1193261-yungyanix.tw1.ru', 
+  'root', 
+  'VGJKva(asx7637)xnas', 
+  'register-bd'
+ );
           $q = "SELECT * FROM `users`";
           if (mysqli_query($mysql, $q)) {
           $res0 = mysqli_query($mysql, $q);

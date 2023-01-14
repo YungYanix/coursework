@@ -1,9 +1,9 @@
 <?php
 
 $mysql = new mysqli(
-  'localhost', 
+  '1193261-yungyanix.tw1.ru', 
   'root', 
-  'root', 
+  'VGJKva(asx7637)xnas', 
   'register-bd'
  );
 $student_bd = new mysqli('localhost', 'root', 'root', 'student_bd');
