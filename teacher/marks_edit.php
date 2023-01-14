@@ -1,7 +1,7 @@
 <?php
 
 $mysql = new mysqli(
-  '1193261-yungyanix.tw1.ru', 
+  'localhost', 
   'root', 
   'VGJKva(asx7637)xnas', 
   'student_bd'

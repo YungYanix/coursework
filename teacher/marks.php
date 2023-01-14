@@ -31,7 +31,12 @@
 
           <?php
 
-          $mysql = new mysqli('localhost', 'root', 'root', 'student_bd');
+          $mysql = new mysqli(
+            'localhost', 
+            'root', 
+            'VGJKva(asx7637)xnas', 
+            'student_bd'
+           );
           $q_hw = "SELECT * FROM `homeworks`";
           if (mysqli_query($mysql, $q_hw)) {
           $res0 = mysqli_query($mysql, $q_hw);

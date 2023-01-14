@@ -3,7 +3,7 @@
 $mysql = new mysqli(
   'localhost', 
   'root', 
-  'root', 
+  'VGJKva(asx7637)xnas', 
   'register-bd'
  );
 $id = $_POST['id'];

@@ -22,7 +22,7 @@
   $pass = password_hash($pass, PASSWORD_BCRYPT);
 
   $mysql = new mysqli(
-  '1193261-yungyanix.tw1.ru', 
+  'localhost', 
   'root', 
   'VGJKva(asx7637)xnas', 
   'register-bd'

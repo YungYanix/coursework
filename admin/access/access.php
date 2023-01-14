@@ -30,11 +30,11 @@
 
           <?php
 
-          new mysqli(
-  '1193261-yungyanix.tw1.ru', 
+          $mysql = new mysqli(
+  'localhost', 
   'root', 
   'VGJKva(asx7637)xnas', 
-  'register-bd'
+  'student_bd'
  );
           $q = "SELECT * FROM `users`";
           if (mysqli_query($mysql, $q)) {

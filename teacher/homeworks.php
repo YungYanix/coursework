@@ -35,11 +35,11 @@
         <tbody>
           <?php
               $mysql = new mysqli(
-            'localhost', 
-            'root', 
-            'root', 
-            'student_bd'
-           );
+                'localhost', 
+                'root', 
+                'VGJKva(asx7637)xnas', 
+                'student_bd'
+               );
            $q = "SELECT * FROM `homeworks`";
            if (mysqli_query($mysql, $q)) {
             $res0 = mysqli_query($mysql, $q);

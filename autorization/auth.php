@@ -4,13 +4,13 @@
   $pass = filter_var(trim($_POST['pass']),
   FILTER_SANITIZE_STRING);
   $register_bd = new mysqli(
-  '1193261-yungyanix.tw1.ru', 
+  'localhost', 
   'root', 
   'VGJKva(asx7637)xnas', 
   'register-bd'
  );
   $student_bd = new mysqli(
-  '1193261-yungyanix.tw1.ru', 
+  'localhost', 
   'root', 
   'VGJKva(asx7637)xnas', 
   'student_bd'
