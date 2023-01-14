@@ -21,7 +21,12 @@
 
   $pass = password_hash($pass, PASSWORD_BCRYPT);
 
-  $mysql = new mysqli('localhost', 'root', 'root', 'register-bd');
+  $mysql = new mysqli(
+  '1193261-yungyanix.tw1.ru', 
+  'root', 
+  'VGJKva(asx7637)xnas', 
+  'register-bd'
+ );
   $mysql->query("INSERT INTO `users` (`login`, `pass`, `name`)
   VALUES('$login', '$pass', '$name')");
 
